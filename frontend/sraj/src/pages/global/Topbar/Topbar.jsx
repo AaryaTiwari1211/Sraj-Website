@@ -37,7 +37,7 @@ const IconTextField = ({ iconStart, iconEnd, InputProps, placeholder, ...props }
 function Topbar() {
     const navigate = useNavigate();
     const [search, setSearch] = useState("");
-    const Mobile = useMediaQuery('(max-width:800px)')
+    const Mobile = useMediaQuery('(max-width:1300px)')
     const MUIhover = {
         cursor: 'pointer',
         '&': {
